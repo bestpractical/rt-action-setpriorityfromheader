@@ -78,7 +78,7 @@ Add this line:
 
     Set(@Plugins, qw(RT::Action::SetPriorityFromHeader));
 
-or add C<RT::Extension::SetPriorityFromHeader> to your existing C<@Plugins> line.
+or add C<RT::Action::SetPriorityFromHeader> to your existing C<@Plugins> line.
 
 You also need to configure the email header to use and a mapping from the email
 header values to RT priority values.
