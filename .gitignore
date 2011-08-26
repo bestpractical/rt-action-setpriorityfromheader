@@ -11,3 +11,4 @@ README
 *.bak
 *.swp
 /META.yml
+/MANIFEST
